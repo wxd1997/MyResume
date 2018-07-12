@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+</head>
+<style type="text/css">
+#nav{
+    width: 1000px;
+    height: 1120px;
+    margin: 0 auto;
+    background-color: #5555ff;
+}
+#nav_left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    /*background-color: yellow;*/
+}
+#nav_right{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: gray;
+}
+.nav_left_one{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*background-color: black;*/
+    border-radius: 50%;
+    border: 3px solid pink;
+}
+.nav_left_one img{
+    display: block;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    padding-top: 2%;
+    border-radius: 50%;
+}
+.nav_left_two{
+    width: 100%;
+    height: 270px;
+    margin-top: 15px;
+    /*background-color: pink;*/
+}
+.nav_left_two span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size:25px;
+    font-family: LiSu;
+}
+.nav_left_two a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav_left_two a:hover{
+    color: orange;
+    font-size: 16px;
+}
+.nav_left_three{
+    width: 100%;
+    height: 180px;
+    margin-top: 8px;
+    /*background-color: pink;*/
+}
+.nav_left_three span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size:30px;
+    font-family: LiSu;
+    font-weight: bold;
+}
+.nav_left_three a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: LiSu;
+}
+.nav_left_three a:hover{
+    color: orange;
+}
+.nav_left_four{
+    width: 100%;
+    height: 250px;
+    margin-top: 8px;
+    /*background-color: pink;*/
+}
+.nav_left_four span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size:30px;
+    font-family: LiSu;
+    font-weight: bold;
+}
+.nav_left_img{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    margin:0 auto;
+    margin-left: 5px;
+    /*background-color: yellow;*/
+}
+.nav_left_img img{
+    display: block;
+    width: 80%;
+    height: 75%;
+    float: right;
+    margin-right: 10px;
+    /*background-color: black;*/
+}
+.nav_left_img span{
+    font-size: 18px;
+    text-align: center;
+}
+.nav_right_one{
+    width: 90%;
+    height: 250px;
+    /*background-color: yellow;*/
+    margin-left: 20px;
+}
+.nav_right_one span{
+    display: block;
+    width: 80%;
+    height: 50%;
+    /*background-color: pink;*/
+    padding-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.nav_right_one b{
+    font-size: 25px;
+}
+.nav_right_two{
+    width: 90%;
+    height: 200px;
+    /*background-color: blue;*/
+}
+.nav_right_two span{
+    display: block;
+    width: 100%;
+    height: 20%;
+    font-size: 25px;
+    padding-top: 5px;
+    /*background-color: pink;*/
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 6px solid black;
+}
+.nav_right_two p{
+    width: 80%;
+    height: 60%;
+    margin-left: 20px;
+    /*background-color: red;*/
+    font-weight: bold;
+}
+.nav_right_three{
+    width: 90%;
+    height: 200px;
+    margin-left: 20px;
+    /*background-color: yellow;*/
+}
+.nav_right_three span{
+    display: block;
+    width: 100%;
+    height: 18%;
+    font-size: 25px;
+    padding-top: 5px;
+    /*background-color: pink;*/
+    /*margin-left: 20px;*/
+    font-weight: bold;
+    border-bottom: 6px solid black;
+}
+.nav_right_three p span{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    border-bottom:0;
+    /*background-color: pink;*/
+}
+.nav_right_three p{
+    width: 100%;
+    /*height: 40%;*/
+    /*background-color: red;*/
+    font-weight: bold;
+}
+.nav_right_four{
+    width: 90%;
+    height: 30%;
+    margin-left: 20px;
+    font-weight: bold;
+    /*background-color: pink;*/
+}
+.nav_right_five{
+    width: 90%;
+    height: 12%;
+    margin-left: 20px;
+    font-weight: bold;
+    /*background-color: yellow;*/
+}
+.nav_right_five span{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 5px;
+    /*background-color: pink;*/
+    /*margin-left: 20px;*/
+    font-weight: bold;
+    border-bottom: 6px solid black;
+}
+.nav_right_five progress{
+    width: 180px;
+}
+</style>
+<body>
+</body>
+    <div id="nav">
+        <div id="nav_left">
+            <div class="nav_left_one">
+                <img src="导航栏壁纸.jpg">
+            </div>
+            <div class="nav_left_two">
+                <span style="font-size: 30px;">基本信息</span>
+              <ul>
+                <li><span>生日：</span><a href="">1997.04.02</a></li>
+                <li><span>民族：</span><a href="">汉</a></li>
+                <li><span>性别：</span><a href="">男</a></li>
+                <li><span>地址：</span><a href="">辽宁省锦州市</a></li>
+                <li><span>电话：</span><a href="">15141619689</a></li>
+                <li><span>邮箱：</span><a href="">178093529@qq.com</a></li>
+              </ul>
+            </div>
+            <div class="nav_left_three">
+                <span style="font-size: 30px;">所获证书</span>
+              <ul>
+                 <li><a href="">计算机二级证书</a></li>
+                 <li><a href="">大学英语四、六级</a></li>
+                 <li><a href="">普通话二级甲等</a></li>
+                 <li><a href="">驾驶证</a></li>
+              </ul>          
+            </div>
+            <div class="nav_left_three" style="height: 120px;">
+                <span style="font-size: 30px;">个人特长</span>
+              <ul>
+                 <li><a href="">吉他弹唱</a></li>
+                 <li><a href="">排球</a></li>
+              </ul>
+            </div>
+            <div class="nav_left_four">
+                <span style="font-size: 30px;">兴趣爱好</span>
+                <div style="width: 100%;height: 200px;margin-top: 5px;">
+                   <div class="nav_left_img">
+                      <img src="东京美食.jpg">
+                      <span>美食</span>
+                   </div>
+                   <div class="nav_left_img">
+                      <img src="耳机背景图.jpg">
+                      <span>音乐</span>
+                   </div>
+                   <div class="nav_left_img">
+                      <img src="海边.jpg">
+                      <span>旅行</span>
+                   </div>
+                   <div class="nav_left_img">
+                      <img src="图片图标.jpg">
+                      <span>摄影</span>
+                   </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="nav_right">
+            <div class="nav_right_one">
+                <span>王晓东</span>
+                <b>求职目标：软件工程师</b>
+            </div>
+            <div class="nav_right_two">
+                <span>自我评价</span>
+                <p>
+                    喜欢互联网、新媒体、对电商行业有浓厚的兴趣，了解其具体特色和运营方式；具有灵活的商业头脑，了解商业模式，对市场敏感，具有良好的信息搜集能力和数据分析能力，能够根据市场的变化调整运营营销方案和策略。
+                </p>
+            </div>
+            <div class="nav_right_three">
+                <span>教育背景</span>
+                <p style="height: 15%;"> <span class="nav_right_three_span">2015.09-2019.07</span> <span class="nav_right_three_span">辽宁大学</span> <span class="nav_right_three_span">软件工程（本科）</span></p>
+                <p style="height: 40%;">主修课程：汇编语言、JAVA、数据库、ARM嵌入式开发、C++、C语言、计算机网络、人工智能、Web前端开发</p>
+            </div>
+            <div class="nav_right_four">
+                <span style="display: block;width: 100%;height: 35px;font-size:25px;font-weight: bold;border-bottom: 6px solid black; ">实习经历</span> <br>
+                <span style="font-weight: bold;">2015-2016</span> <span style="font-weight: bold;">东北富强信息科技有限公司</span> <span style="font-weight: bold;">市场营销</span>
+                <p>
+                    <span>工作描述：</span><br>
+                    <ul>
+                        <li>负责公司线上端资源的销售工作，工司主要资源以沃门户、小米、360等</li>
+                        <li>实时了解行业的变化，跟踪客户的详细数据，为客户制定更完善的投放计划.</li>
+                    </ul>
+                </p>
+                <span>2017-2018</span> <span>小当科技有限公司</span> <span>软件工程师</span>
+                <p>
+                    <span>工作描述：</span><br>
+                    <ul>
+                        <li>参与产品上线前的测试，跟进问题及需求变更的进度</li>
+                        <li>设计、编写可复用的用户界面组件、前端通用组件</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="nav_right_five">
+                <span>软件技能</span><br>
+                <label style="padding-top: 10px;display: inline-block;">word:</label>
+                <progress value="80" max="100" style="color: red;"></progress>
+                <label style="padding-top: 10px;display: inline-block;">Excel:</label>
+                <progress value="70" max="100" style="color: red;"></progress><br>
+                <label style="margin-left: 22px;">Ps:</label>
+                <progress value="90" max="100" style="color: red;"></progress>
+                <label style="margin-left: 12px;">ppt:</label>
+                <progress value="60" max="100" style="color: red;"></progress>
+            </div>
+        </div>
+    </div>
+</html>
